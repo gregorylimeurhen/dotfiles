@@ -19,3 +19,10 @@ footer#twilight-sticky-footer-root {
     display: none;
 }
 }
+
+@-moz-document domain("youtube.com") {
+div#container {
+    transform: scale(0.8);
+    transform-origin: top center;
+}
+}
